@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2578682386003363818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4190203641321910775}
+  - component: {fileID: 3235359747471201742}
+  m_Layer: 0
+  m_Name: Corn2Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4190203641321910775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578682386003363818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3235359747471201742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578682386003363818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a238dfa4f7113b4e8b5b4eae8148b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planeKey: corn2
+  _planeColors:
+  - {fileID: 21300000, guid: 025c8d14941671b43a9ba27e9b8d1e18, type: 3}
+  - {fileID: 21300000, guid: 13e6e67d00ca7d741bd95757362b0953, type: 3}
+  - {fileID: 21300000, guid: d9b78e38d8edd394cb3af21a8e660b3c, type: 3}
+  - {fileID: 21300000, guid: 210652d3adfa5c04fae764b2627969a2, type: 3}
+  - {fileID: 21300000, guid: fc861402857a27c4d91303a6a042be67, type: 3}
